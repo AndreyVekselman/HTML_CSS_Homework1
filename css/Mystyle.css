@@ -1,0 +1,15 @@
+header {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  float: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  font-size: large;
+  background-color: blanchedalmond;
+  padding-top: 50px;
+}
+.Menu {
+  width: 30px;
+  padding: 50px;
+}
