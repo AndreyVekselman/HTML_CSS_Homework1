@@ -17,9 +17,23 @@ header {
 .Menu {
   width: 30px;
   padding: 50px;
+  cursor: pointer;
 }
+.Menu_side {
+  height: 30px;
+  text-align: center;
+  cursor: pointer;
+  font-size: large;
+  font-weight: 600;
+  padding-left: 50;
+}
+.Menu :hover {
+  color: rgb(233, 14, 14);
+}
+
 main {
-  width: 75%;
+  width: 55%;
+  margin-left: 10%;
   height: 100px;
   background-color: aqua;
   text-align: center;
@@ -29,10 +43,9 @@ main {
 aside {
   width: 25%;
   height: 100px;
-  text-align: center;
+
   background-color: bisque;
   float: left;
-  /*border: 1px solid black;*/
 }
 footer {
   float: left;
